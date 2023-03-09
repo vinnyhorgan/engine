@@ -86,6 +86,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="deps\src\glad.c" />
+    <ClCompile Include="deps\src\imgui.cpp" />
+    <ClCompile Include="deps\src\imgui_demo.cpp" />
+    <ClCompile Include="deps\src\imgui_draw.cpp" />
+    <ClCompile Include="deps\src\imgui_impl_glfw.cpp" />
+    <ClCompile Include="deps\src\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="deps\src\imgui_tables.cpp" />
+    <ClCompile Include="deps\src\imgui_widgets.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
