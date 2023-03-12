@@ -6,9 +6,10 @@
 
 class Shader {
 public:
-    unsigned int ID;
+    unsigned int id;
 
-    Shader(const std::string& vertexPath, const std::string& fragmentPath);
+    Shader();
+    void load(const std::string& vertexPath, const std::string& fragmentPath);
     void use();
     void dispose();
     void setBool(const std::string& name, bool value);
